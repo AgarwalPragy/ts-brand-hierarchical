@@ -155,7 +155,7 @@ counterparts, but not vice-versa.
 
 Example:
 
-```
+```ts
 type Uuid = Brand<string, 'Uuid'>;
 type PostId = Brand<Uuid, 'PostId'>;
 
